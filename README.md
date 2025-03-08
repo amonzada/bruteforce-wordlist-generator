@@ -1,6 +1,5 @@
 # Gerador de Wordlists para Pentest
 
-![Banner](https://via.placeholder.com/1024x300.png?text=Seguran%C3%A7a+de+Senhas+-+Projeto+Acad%C3%AAmico)
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![Ethical](https://img.shields.io/badge/Use-Acadêmico%2FÉtico-success)
@@ -17,12 +16,14 @@ Conjunto de ferramentas para análise de segurança de senhas, contendo:
 - Framework para estudo de padrões de senhas
 - Base de conhecimento em autenticação segura
 
-Padrões comuns de senhas mapeados
-Categoria	| Exemplo	| Frequência
-Datas	| 01011999, 12122012	| 23%
-Sequências	| 123456, qwerty	| 18%
-Info. Pessoal	| nome+aniversario	| 15%
-Padrões Complexos	| S3nh@!, P@ssw0rd	| 9%
+### Padrões Comuns de Senhas Mapeados
+
+| Categoria         | Exemplos Comuns         | Frequência |
+|-------------------|-------------------------|------------|
+| **Datas**         | 01011999, 12122012     | 23%        |
+| **Sequências**    | 123456, qwerty         | 18%        |
+| **Info. Pessoal** | nome+aniversario        | 15%        |
+| **Padrões Complexos** | S3nh@!, P@ssw0rd       | 9%         |
 
 
 ## 🛠️ Módulos Principais
@@ -85,12 +86,15 @@ print(f"Entropia: {entropia:.2f} bits")  # ≈ 52.00 bits
 
 # Estatísticas de Geração
 
-Técnica	| Senhas/min* | Tamanho Médio
-Brute Force	| 1.2M | 6 caracteres
-Dictionary | 850K | 10 caracteres
-Datas | 450K | 8 caracteres
-Padrões | 650K | 9 caracteres
-*Testado em i7-11800H, 32GB RAM, SSD NVMe
+### Desempenho
+| Técnica         | Senhas/min* | Tamanho Médio |
+|-----------------|-------------|---------------|
+| **Brute Force** | 1.2M        | 6 caracteres  |
+| **Dictionary**  | 850K        | 10 caracteres |
+| **Datas**       | 450K        | 8 caracteres  |
+| **Padrões**     | 650K        | 9 caracteres  |
+
+\*Testado em i7-11800H, 32GB RAM, SSD NVMe
 
 
 ## 🤝 Como Contribuir
